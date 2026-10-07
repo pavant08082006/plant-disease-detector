@@ -1,0 +1,40 @@
+{
+  "model_name": "PlantDiseaseClassifier",
+  "framework": "TensorFlow 2.21 / Keras 3",
+  "architecture": "MobileNetV2 (Transfer Learning with Fine-Tuning Head)",
+  "backbone": "MobileNetV2 (ImageNet pretrained, frozen feature extractor)",
+  "input_shape": [224, 224, 3],
+  "color_mode": "RGB",
+  "num_classes": 38,
+  "dataset_source": "PlantVillage Dataset (Color)",
+  "total_images": 54305,
+  "validation_split": 0.20,
+  "data_augmentation": [
+    "RandomFlip(horizontal_and_vertical)",
+    "RandomRotation(0.2)",
+    "RandomZoom(0.15)"
+  ],
+  "normalization": "Built-in MobileNetV2 preprocess_input ([0, 255] -> [-1, 1])",
+  "head_layers": [
+    "GlobalAveragePooling2D",
+    "Dropout(rate=0.3)",
+    "Dense(38, activation='softmax')"
+  ],
+  "total_parameters": 2404020,
+  "trainable_parameters": 48678,
+  "non_trainable_parameters": 2257984,
+  "optimizer": "Adam (learning_rate=0.001)",
+  "loss_function": "categorical_crossentropy",
+  "metric": "accuracy",
+  "callbacks": [
+    "EarlyStopping(patience=3)",
+    "ReduceLROnPlateau(factor=0.2, patience=2)",
+    "ModelCheckpoint(save_best_only=True)"
+  ],
+  "exported_artifacts": {
+    "keras_model": "models/best_plant_model.keras",
+    "tflite_model": "models/plant_disease_model.tflite",
+    "classes_file": "models/class_names.json"
+  }
+}
+

@@ -1,0 +1,18 @@
+state,district,market,commodity,variety,arrival_date,min_price,max_price,modal_price
+Karnataka,Kolar,Kolar APMC,Tomato,Hybrid,2026-10-07,2100,2800,2450
+Karnataka,Bengaluru,Yeshwanthpur APMC,Tomato,Local,2026-10-07,1900,2600,2250
+Karnataka,Belagavi,Belagavi APMC,Potato,Jyoti,2026-10-07,1600,2200,1950
+Karnataka,Dharwad,Hubballi APMC,Onion,Red,2026-10-07,2400,3200,2850
+Karnataka,Mysuru,Bandipalya APMC,Maize,Yellow,2026-10-07,2050,2350,2200
+Karnataka,Shivamogga,Shivamogga APMC,Rice,Sona Masoori,2026-10-07,3400,4200,3800
+Maharashtra,Nashik,Lasalgaon APMC,Onion,Nashik Red,2026-10-07,2500,3400,2950
+Maharashtra,Nashik,Pimpalgaon APMC,Tomato,Hybrid,2026-10-07,2000,2700,2380
+Maharashtra,Pune,Gultekdi APMC,Potato,Desi,2026-10-07,1750,2300,2050
+Maharashtra,Nagpur,Kalamna APMC,Soybean,Yellow,2026-10-07,4300,4850,4600
+Maharashtra,Solapur,Solapur APMC,Grape,Thompson Seedless,2026-10-07,5200,7500,6400
+Uttar Pradesh,Agra,Fatehabad APMC,Potato,Kufri Bahar,2026-10-07,1450,1900,1700
+Uttar Pradesh,Varanasi,Varanasi APMC,Wheat,Sharbati,2026-10-07,2400,2750,2600
+Punjab,Ludhiana,Ludhiana APMC,Wheat,PBW-502,2026-10-07,2350,2600,2475
+Tamil Nadu,Coimbatore,Udumalpet APMC,Maize,Hybrid,2026-10-07,2100,2400,2250
+Karnataka,Kolar,Kolar APMC,Bell Pepper,Green,2026-10-07,3200,4100,3650
+

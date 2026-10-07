@@ -1,0 +1,123 @@
+{
+  "Rice": {
+    "n_range": [200, 450],
+    "p_range": [20, 50],
+    "k_range": [100, 250],
+    "ph_range": [5.5, 7.2],
+    "temp_range": [20.0, 37.0],
+    "humidity_range": [70.0, 95.0],
+    "rainfall_range": [900, 2500],
+    "suitable_seasons": ["Kharif", "Zaid", "All"],
+    "soil_types": ["Clay", "Clay Loam", "Alluvial"],
+    "description": "High water-demanding cereal crop thriving in warm, humid tropical and sub-tropical plains."
+  },
+  "Wheat": {
+    "n_range": [180, 350],
+    "p_range": [25, 60],
+    "k_range": [120, 220],
+    "ph_range": [6.0, 7.5],
+    "temp_range": [12.0, 26.0],
+    "humidity_range": [40.0, 70.0],
+    "rainfall_range": [350, 800],
+    "suitable_seasons": ["Rabi", "Winter"],
+    "soil_types": ["Loam", "Clay Loam", "Alluvial"],
+    "description": "Primary staple winter cereal requiring cool vegetative climate and warm ripening conditions."
+  },
+  "Maize": {
+    "n_range": [200, 400],
+    "p_range": [30, 65],
+    "k_range": [140, 280],
+    "ph_range": [5.8, 7.5],
+    "temp_range": [18.0, 32.0],
+    "humidity_range": [50.0, 80.0],
+    "rainfall_range": [500, 1100],
+    "suitable_seasons": ["Kharif", "Rabi", "All"],
+    "soil_types": ["Sandy Loam", "Loam", "Alluvial", "Red Soil"],
+    "description": "Highly adaptable versatile grain with good drought tolerance and high nutrient responsiveness."
+  },
+  "Tomato": {
+    "n_range": [150, 320],
+    "p_range": [35, 75],
+    "k_range": [150, 350],
+    "ph_range": [6.0, 7.0],
+    "temp_range": [18.0, 30.0],
+    "humidity_range": [50.0, 75.0],
+    "rainfall_range": [400, 900],
+    "suitable_seasons": ["Kharif", "Rabi", "All"],
+    "soil_types": ["Sandy Loam", "Loam", "Red Loam"],
+    "description": "High-value commercial horticultural crop with high potassium and phosphorus requirements."
+  },
+  "Potato": {
+    "n_range": [180, 320],
+    "p_range": [40, 80],
+    "k_range": [180, 350],
+    "ph_range": [5.2, 6.8],
+    "temp_range": [15.0, 24.0],
+    "humidity_range": [55.0, 85.0],
+    "rainfall_range": [400, 800],
+    "suitable_seasons": ["Rabi", "Winter"],
+    "soil_types": ["Sandy Loam", "Loam", "Peat"],
+    "description": "Tuber crop requiring loose friable soils, cool nights, and generous potassium nutrition."
+  },
+  "Soybean": {
+    "n_range": [120, 240],
+    "p_range": [30, 65],
+    "k_range": [110, 220],
+    "ph_range": [6.0, 7.5],
+    "temp_range": [20.0, 32.0],
+    "humidity_range": [60.0, 85.0],
+    "rainfall_range": [600, 1000],
+    "suitable_seasons": ["Kharif", "Monsoon"],
+    "soil_types": ["Black Soil", "Loam", "Clay Loam"],
+    "description": "Nitrogen-fixing leguminous oilseed crop ideal for enriching depleted soils in rotation."
+  },
+  "Cotton": {
+    "n_range": [180, 350],
+    "p_range": [25, 55],
+    "k_range": [130, 260],
+    "ph_range": [6.2, 8.0],
+    "temp_range": [21.0, 35.0],
+    "humidity_range": [45.0, 75.0],
+    "rainfall_range": [500, 1000],
+    "suitable_seasons": ["Kharif", "Monsoon"],
+    "soil_types": ["Black Cotton Soil", "Deep Alluvial"],
+    "description": "Major commercial fiber crop performing exceptionally well in deep black clayey soils."
+  },
+  "Chickpea (Gram)": {
+    "n_range": [80, 180],
+    "p_range": [25, 55],
+    "k_range": [90, 180],
+    "ph_range": [6.0, 7.8],
+    "temp_range": [15.0, 28.0],
+    "humidity_range": [35.0, 65.0],
+    "rainfall_range": [300, 600],
+    "suitable_seasons": ["Rabi", "Winter"],
+    "soil_types": ["Sandy Loam", "Black Soil", "Loam"],
+    "description": "Drought-hardy pulse crop with low nitrogen requirement due to efficient nodulation."
+  },
+  "Bell Pepper": {
+    "n_range": [150, 300],
+    "p_range": [30, 70],
+    "k_range": [150, 320],
+    "ph_range": [6.0, 7.0],
+    "temp_range": [18.0, 28.0],
+    "humidity_range": [55.0, 75.0],
+    "rainfall_range": [500, 900],
+    "suitable_seasons": ["Kharif", "Rabi", "All"],
+    "soil_types": ["Sandy Loam", "Loam"],
+    "description": "Sensitive horticultural cash crop demanding steady moisture and well-aerated fertile soils."
+  },
+  "Groundnut": {
+    "n_range": [100, 200],
+    "p_range": [20, 50],
+    "k_range": [90, 190],
+    "ph_range": [5.8, 7.2],
+    "temp_range": [22.0, 33.0],
+    "humidity_range": [50.0, 75.0],
+    "rainfall_range": [450, 850],
+    "suitable_seasons": ["Kharif", "Zaid", "All"],
+    "soil_types": ["Sandy Loam", "Red Sandy Loam"],
+    "description": "Important oilseed crop needing light loose soil for easy peg penetration and pod development."
+  }
+}
+
